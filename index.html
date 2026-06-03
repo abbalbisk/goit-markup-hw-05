@@ -538,28 +538,30 @@
 
         <div class="form-email-position">
           <h3 class="footer-form">Subscribe</h3>
-          <div class="form-email-button">
-            <label for="form-email">
-              <input
-                class="form-email"
-                name="form-email"
-                id="form-email"
-                type="email"
-               
-                placeholder="E-mail"
-              />
-            </label>
-            <button type="button" class="form-button">
-              Subscribe
-              <svg width="24" height="24" class="footer-btn-icon">
-                <use href="./images/icons.svg#icon-icon-send"></use>
-              </svg>
-            </button>
-          </div>
+          <form action="submit">
+            <div class="form-email-button">
+              <label for="form-email">
+                <input
+                  class="form-email"
+                  name="form-email"
+                  id="form-email"
+                  type="email"
+            
+                  placeholder="E-mail"
+                />
+              </label>
+              <button type="submit" class="form-button">
+                Subscribe
+                <svg width="24" height="24" class="footer-btn-icon">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
-    <div class="modal-overlay">
+    <div id="modal" class="modal-overlay">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg width="8" height="8" class="modal-close">
