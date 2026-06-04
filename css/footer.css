@@ -92,7 +92,7 @@ font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
 color: #fff;
-min-width: 264px;
+width: 264px;
 height: 40px;
 padding: 13px 16px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
